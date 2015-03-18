@@ -1,0 +1,42 @@
+﻿@model StarboundWorlds.Models.World
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>World</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.WorldType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WorldType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WorldSize)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WorldSize)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WorldGravity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WorldGravity)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.WorldID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

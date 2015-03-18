@@ -1,0 +1,45 @@
+﻿@model IEnumerable<StarboundWorlds.Models.World>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.WorldType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WorldSize)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WorldGravity)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.WorldType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WorldSize)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WorldGravity)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.WorldID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.WorldID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.WorldID })
+        </td>
+    </tr>
+}
+
+</table>

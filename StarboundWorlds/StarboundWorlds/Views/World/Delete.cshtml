@@ -1,0 +1,48 @@
+﻿@model StarboundWorlds.Models.World
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>World</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.WorldType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WorldType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WorldSize)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WorldSize)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WorldGravity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WorldGravity)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

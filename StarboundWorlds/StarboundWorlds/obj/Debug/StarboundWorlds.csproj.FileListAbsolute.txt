@@ -1,0 +1,58 @@
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\StarboundWorlds.dll.config
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\StarboundWorlds.dll
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\StarboundWorlds.pdb
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\Antlr3.Runtime.dll
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\Microsoft.Web.Infrastructure.dll
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\Newtonsoft.Json.dll
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\System.Web.Helpers.dll
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\System.Web.Mvc.dll
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\System.Web.Optimization.dll
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\System.Web.Razor.dll
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\System.Web.WebPages.Deployment.dll
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\System.Web.WebPages.dll
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\System.Web.WebPages.Razor.dll
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\WebGrease.dll
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\System.Web.Helpers.xml
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\System.Web.Mvc.xml
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\System.Web.Optimization.xml
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\System.Web.Razor.xml
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\System.Web.WebPages.xml
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\System.Web.WebPages.Deployment.xml
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\System.Web.WebPages.Razor.xml
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\Antlr3.Runtime.pdb
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\Newtonsoft.Json.xml
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\obj\Debug\StarboundWorlds.dll
+c:\users\jacob\documents\visual studio 2013\Projects\StarboundWorlds\StarboundWorlds\obj\Debug\StarboundWorlds.pdb
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\EntityFramework.dll
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\EntityFramework.SqlServer.dll
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\EntityFramework.xml
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\StarboundWorlds\StarboundWorlds\bin\EntityFramework.SqlServer.xml
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\StarboundWorlds.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\StarboundWorlds.pdb
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\Antlr3.Runtime.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\EntityFramework.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\EntityFramework.SqlServer.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\Newtonsoft.Json.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\System.Web.Helpers.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\System.Web.Mvc.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\System.Web.Optimization.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\System.Web.Razor.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\System.Web.WebPages.Deployment.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\System.Web.WebPages.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\System.Web.WebPages.Razor.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\WebGrease.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\EntityFramework.xml
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\EntityFramework.SqlServer.xml
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\System.Web.Helpers.xml
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\System.Web.Mvc.xml
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\System.Web.Optimization.xml
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\System.Web.Razor.xml
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\System.Web.WebPages.xml
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\System.Web.WebPages.Deployment.xml
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\System.Web.WebPages.Razor.xml
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\Antlr3.Runtime.pdb
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\bin\Newtonsoft.Json.xml
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\obj\Debug\StarboundWorlds.csprojResolveAssemblyReference.cache
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\obj\Debug\StarboundWorlds.dll
+C:\Users\C#User\Desktop\StarboundWorlds\StarboundWorlds\obj\Debug\StarboundWorlds.pdb
