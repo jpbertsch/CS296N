@@ -12,21 +12,16 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.StarSystem.StarName)
+            Planet Names
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Orbit)
-        </th>
-        <th></th>
     </tr>
 
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.StarSystem.StarName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Orbit)
+            @{ item.PlanetName = item.inheritPlanetName(); }
+
+            @Html.DisplayFor(modelItem => item.PlanetName)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.PlanetID }) |

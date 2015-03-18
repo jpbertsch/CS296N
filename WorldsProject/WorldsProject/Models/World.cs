@@ -11,9 +11,10 @@ namespace StarboundWorlds.Models
 
         //public string WorldName { get; set; } //May not use worldname as they get their names from the starsystem they inhabit
 
-        //public string WorldType { get; set; }     //CO'd for early convenience
-        //public int WorldSize { get; set; }        // "
-        //public float WorldGravity { get; set; }   // "
+        public string WorldType { get; set; }
+        public int WorldSize { get; set; }
+        public double WorldGravity { get; set; }
+        public int DayLength { get; set; }
 
         //public StarSystem Star { get; set; } // Foreign Key, need to look into how to implement
 

@@ -11,6 +11,13 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
+            @Html.DisplayNameFor(model => model.StarName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StarName)
+        </dd>
+        <dt>
             @Html.DisplayNameFor(model => model.Xcoordinate)
         </dt>
 
@@ -27,12 +34,27 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.StarName)
+            @Html.DisplayNameFor(model => model.StarType)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.StarName)
+            @Html.DisplayFor(model => model.StarType)
         </dd>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.Planets)
+        </dt>
+
+        @foreach (var p in Model.Planets)
+        {
+                p.PlanetName = p.inheritPlanetName(); 
+            
+            <dd>
+                @Html.DisplayFor(x => p.PlanetName)
+            </dd>
+        }
+        
+
 
     </dl>
 

@@ -26,6 +26,49 @@
             @Html.DisplayFor(model => model.Orbit)
         </dd>
 
+        <dt>
+            @Html.DisplayNameFor(model => model.WorldType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WorldType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DayLength)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DayLength)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WorldSize)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WorldSize)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WorldGravity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WorldGravity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Moons)
+        </dt>
+        @foreach (var m in Model.Moons)
+        {
+            m.MoonName = m.inheritMoonName(m.Orbit, m.Planet.Orbit, m.Planet.StarSystem.StarName);
+            
+            <dd>
+                @Html.DisplayFor(x => m.MoonName)
+            </dd>
+        }
     </dl>
 </div>
 <p>

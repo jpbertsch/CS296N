@@ -11,10 +11,7 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.StarSystem.StarName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Orbit)
+            @Html.DisplayNameFor(model => model.PlanetName)
         </th>
         <th></th>
     </tr>
@@ -23,11 +20,9 @@
     {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.StarSystem.StarName)
+                @Html.DisplayFor(modelItem => item.PlanetName)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Orbit)
-            </td>
+
             @*
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.PlanetID }) |

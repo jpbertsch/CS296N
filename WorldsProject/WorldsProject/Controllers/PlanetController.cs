@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using StarboundWorlds.Models;
 using WorldsProject.DAL;
+using WorldsProject.ViewModels;
 
 namespace WorldsProject.Controllers
 {
@@ -49,17 +50,28 @@ namespace WorldsProject.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "PlanetID,StarSystemID,Orbit")] Planet planet)
+        //public ActionResult Create([Bind(Include = "PlanetID,StarSystemID,Orbit")] Planet planet)
+        public ActionResult Create([Bind(Include = "StarSystemID,Orbit,WorldType,WorldSize,WorldGravity,DayLength")] Planet planetVM)
         {
             if (ModelState.IsValid)
             {
-                db.Planets.Add(planet);
+                Planet newPlanet = new Planet();
+
+                newPlanet.StarSystemID = planetVM.StarSystemID;
+                newPlanet.Orbit = planetVM.Orbit;
+
+                newPlanet.WorldType = planetVM.WorldType;
+                newPlanet.WorldSize = planetVM.WorldSize;
+                newPlanet.WorldGravity = planetVM.WorldGravity;
+                newPlanet.DayLength = planetVM.DayLength;
+
+                db.Planets.Add(newPlanet);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            ViewBag.StarSystemID = new SelectList(db.StarSystems, "StarSystemID", "StarName", planet.StarSystemID);
-            return View(planet);
+            ViewBag.StarSystemID = new SelectList(db.StarSystems, "StarSystemID", "StarName", planetVM.StarSystemID);
+            return View(planetVM);
         }
 
         // GET: Planet/Edit/5

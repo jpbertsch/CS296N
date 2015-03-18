@@ -27,4 +27,3 @@ c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\bin\EntityFramework.SqlServer.dll
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\bin\EntityFramework.xml
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\bin\EntityFramework.SqlServer.xml
-C:\Users\Jacob\Documents\Visual Studio 2013\Projects\WorldsProject\WorldsProject\obj\Debug\WorldsProject.csprojResolveAssemblyReference.cache
