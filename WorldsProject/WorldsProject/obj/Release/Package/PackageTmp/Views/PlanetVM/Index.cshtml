@@ -1,0 +1,37 @@
+﻿@model IEnumerable<WorldsProject.ViewModels.PlanetVM>
+
+@{
+    ViewBag.Title = "PlanetVM View";
+}
+
+<h2>PlanetVM View</h2>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PlanetName)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlanetName)
+            </td>
+
+            @*
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.PlanetID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.PlanetID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.PlanetID })
+            </td>
+                *@
+        </tr>
+    }
+
+</table>
+

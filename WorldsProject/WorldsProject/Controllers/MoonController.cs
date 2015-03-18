@@ -49,17 +49,29 @@ namespace WorldsProject.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "MoonID,PlanetID")] Moon moon)
+        public ActionResult Create([Bind(Include = "PlanetID,Orbit,WorldType,WorldSize,WorldGravity,DayLength")] Moon moonVM)
         {
             if (ModelState.IsValid)
             {
-                db.Moons.Add(moon);
+                Moon newMoon = new Moon();
+
+                newMoon.PlanetID = moonVM.PlanetID;
+                newMoon.Orbit = moonVM.Orbit;
+
+                newMoon.WorldType = moonVM.WorldType;
+                newMoon.WorldSize = moonVM.WorldSize;
+                newMoon.WorldGravity = moonVM.WorldGravity;
+                newMoon.DayLength = moonVM.DayLength;
+
+                //newMoon.MoonName = moonVM.inheritMoonName();
+
+                db.Moons.Add(newMoon);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            ViewBag.PlanetID = new SelectList(db.Planets, "PlanetID", "PlanetID", moon.PlanetID);
-            return View(moon);
+            ViewBag.PlanetID = new SelectList(db.Planets, "PlanetID", "PlanetName", moonVM.PlanetID);
+            return View(moonVM);
         }
 
         // GET: Moon/Edit/5
@@ -83,7 +95,7 @@ namespace WorldsProject.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "MoonID,PlanetID")] Moon moon)
+        public ActionResult Edit([Bind(Include = "MoonID,PlanetID,Orbit,WorldType,DayLength,WorldSize,WorldGravity")] Moon moon)
         {
             if (ModelState.IsValid)
             {

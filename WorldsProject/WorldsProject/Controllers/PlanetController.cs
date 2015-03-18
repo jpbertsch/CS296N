@@ -65,6 +65,8 @@ namespace WorldsProject.Controllers
                 newPlanet.WorldGravity = planetVM.WorldGravity;
                 newPlanet.DayLength = planetVM.DayLength;
 
+                //newPlanet.PlanetName = planetVM.inheritPlanetName();
+
                 db.Planets.Add(newPlanet);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -95,7 +97,7 @@ namespace WorldsProject.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "PlanetID,StarSystemID,Orbit")] Planet planet)
+        public ActionResult Edit([Bind(Include = "PlanetID,StarSystemID,Orbit,WorldType,DayLength,WorldSize,WorldGravity")] Planet planet)
         {
             if (ModelState.IsValid)
             {

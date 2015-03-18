@@ -13,9 +13,11 @@ namespace WorldsProject.ViewModels
         //public List<PlanetVM> Planets { get; set; }
         public List<Planet> Planets {get; set; }
 
-        public string StarName { get; set; }
+        public int StarSystemID { get; set; }
         public int Xcoordinate { get; set; }
         public int Ycoordinate { get; set; }
+        public string StarName { get; set; }
+        public string StarType { get; set; }
 
         public StarSystemVM()
         { }

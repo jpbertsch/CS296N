@@ -47,16 +47,24 @@ namespace WorldsProject.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "StarSystemID,Xcoordinate,Ycoordinate,StarName")] StarSystem starSystem)
+        public ActionResult Create([Bind(Include = "StarSystemID,Xcoordinate,Ycoordinate,StarName,StarType")] StarSystem starsystemVM)
         {
             if (ModelState.IsValid)
             {
-                db.StarSystems.Add(starSystem);
+                StarSystem newStarSystem = new StarSystem();
+
+                newStarSystem.Xcoordinate = starsystemVM.Xcoordinate;
+                newStarSystem.Ycoordinate = starsystemVM.Ycoordinate;
+
+                newStarSystem.StarName = starsystemVM.StarName;
+                newStarSystem.StarType = starsystemVM.StarType;
+
+                db.StarSystems.Add(newStarSystem);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(starSystem);
+            return View(starsystemVM);
         }
 
         // GET: StarSystem/Edit/5
@@ -79,7 +87,7 @@ namespace WorldsProject.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "StarSystemID,Xcoordinate,Ycoordinate,StarName")] StarSystem starSystem)
+        public ActionResult Edit([Bind(Include = "StarSystemID,Xcoordinate,Ycoordinate,StarName,StarType")] StarSystem starSystem)
         {
             if (ModelState.IsValid)
             {

@@ -27,3 +27,66 @@ c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\bin\EntityFramework.SqlServer.dll
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\bin\EntityFramework.xml
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\WorldsProject\WorldsProject\obj\Debug\WorldsProject.csprojResolveAssemblyReference.cache
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\WorldsProject.dll.config
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\WorldsProject.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\WorldsProject.pdb
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\Antlr3.Runtime.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\EntityFramework.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\EntityFramework.SqlServer.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\Newtonsoft.Json.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\System.Web.Helpers.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\System.Web.Mvc.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\System.Web.Optimization.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\System.Web.Razor.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\System.Web.WebPages.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\WebGrease.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\EntityFramework.xml
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\EntityFramework.SqlServer.xml
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\System.Web.Helpers.xml
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\System.Web.Mvc.xml
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\System.Web.Optimization.xml
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\System.Web.Razor.xml
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\System.Web.WebPages.xml
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\Antlr3.Runtime.pdb
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\bin\Newtonsoft.Json.xml
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\obj\Debug\WorldsProject.csprojResolveAssemblyReference.cache
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\obj\Debug\WorldsProject.dll
+C:\Users\C#User\Desktop\WorldsProject\WorldsProject\obj\Debug\WorldsProject.pdb
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\WorldsProject.dll.config
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\WorldsProject.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\WorldsProject.pdb
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\Antlr3.Runtime.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\EntityFramework.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\EntityFramework.SqlServer.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\Newtonsoft.Json.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\System.Web.Helpers.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\System.Web.Mvc.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\System.Web.Optimization.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\System.Web.Razor.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\System.Web.WebPages.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\WebGrease.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\EntityFramework.xml
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\EntityFramework.SqlServer.xml
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\System.Web.Helpers.xml
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\System.Web.Mvc.xml
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\System.Web.Optimization.xml
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\System.Web.Razor.xml
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\System.Web.WebPages.xml
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\Antlr3.Runtime.pdb
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\bin\Newtonsoft.Json.xml
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\obj\Debug\WorldsProject.csprojResolveAssemblyReference.cache
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\obj\Debug\WorldsProject.dll
+C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\obj\Debug\WorldsProject.pdb
+C:\Users\Jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\obj\Debug\WorldsProject.Migrations.InitialCreate.resources
+C:\Users\Jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\obj\Debug\WorldsProject.csproj.GenerateResource.Cache
