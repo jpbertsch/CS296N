@@ -123,8 +123,10 @@
     <Compile Include="Controllers\PlanetVMController.cs" />
     <Compile Include="Controllers\StarSystemController.cs" />
     <Compile Include="Controllers\StarSystemVMController.cs" />
+    <Compile Include="DAL\IStarSystemRepository.cs" />
     <Compile Include="DAL\PrimaryContext.cs" />
     <Compile Include="DAL\PrimaryInitializer.cs" />
+    <Compile Include="DAL\StarSystemRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -133,7 +135,12 @@
       <DependentUpon>201503112041169_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201503151836185_AddedStar\WorldtypesandAnnotations.cs" />
+    <Compile Include="Migrations\201503170008223_Migration03162015.cs" />
+    <Compile Include="Migrations\201503170008223_Migration03162015.Designer.cs">
+      <DependentUpon>201503170008223_Migration03162015.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\dummyClass.cs" />
     <Compile Include="Models\Moon.cs" />
     <Compile Include="Models\Planet.cs" />
     <Compile Include="Models\StarSystem.cs" />
@@ -215,6 +222,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201503112041169_InitialCreate.resx">
       <DependentUpon>201503112041169_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201503170008223_Migration03162015.resx">
+      <DependentUpon>201503170008223_Migration03162015.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

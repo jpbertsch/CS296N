@@ -6,19 +6,30 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using StarboundWorlds.Models;
+using WorldsProject.Models;
 using WorldsProject.DAL;
 
 namespace WorldsProject.Controllers
 {
     public class StarSystemController : Controller
     {
-        private PrimaryContext db = new PrimaryContext();
+        private IStarSystemRepository starsystemRepository;
+        //private PrimaryContext db = new PrimaryContext();
+
+        public StarSystemController() // Called by MVC framework
+        {
+            this.starsystemRepository = new StarSystemRepository(new PrimaryContext());
+        }
+
+        public StarSystemController(IStarSystemRepository starsystemRepository)
+        {
+            this.starsystemRepository = starsystemRepository;
+        }
 
         // GET: StarSystem
         public ActionResult Index()
         {
-            return View(db.StarSystems.ToList());
+            return View(starsystemRepository.GetStarSystems());
         }
 
         // GET: StarSystem/Details/5
@@ -28,7 +39,9 @@ namespace WorldsProject.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            StarSystem starSystem = db.StarSystems.Find(id);
+
+            StarSystem starSystem = starsystemRepository.GetStarSystemByID((int)id);
+
             if (starSystem == null)
             {
                 return HttpNotFound();
@@ -59,8 +72,10 @@ namespace WorldsProject.Controllers
                 newStarSystem.StarName = starsystemVM.StarName;
                 newStarSystem.StarType = starsystemVM.StarType;
 
-                db.StarSystems.Add(newStarSystem);
-                db.SaveChanges();
+                //db.StarSystems.Add(newStarSystem);
+                starsystemRepository.InsertStarSystem(newStarSystem);
+                //db.SaveChanges();
+                starsystemRepository.Save();
                 return RedirectToAction("Index");
             }
 
@@ -74,7 +89,8 @@ namespace WorldsProject.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            StarSystem starSystem = db.StarSystems.Find(id);
+            //StarSystem starSystem = db.StarSystems.Find(id);
+            StarSystem starSystem = starsystemRepository.GetStarSystemByID((int)id);
             if (starSystem == null)
             {
                 return HttpNotFound();
@@ -91,8 +107,10 @@ namespace WorldsProject.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(starSystem).State = EntityState.Modified;
-                db.SaveChanges();
+                //db.Entry(starSystem).State = EntityState.Modified;
+                starsystemRepository.UpdateStarSystem(starSystem);
+                //db.SaveChanges();
+                starsystemRepository.Save();
                 return RedirectToAction("Index");
             }
             return View(starSystem);
@@ -105,7 +123,8 @@ namespace WorldsProject.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            StarSystem starSystem = db.StarSystems.Find(id);
+            //StarSystem starSystem = db.StarSystems.Find(id);
+            StarSystem starSystem = starsystemRepository.GetStarSystemByID((int)id);
             if (starSystem == null)
             {
                 return HttpNotFound();
@@ -118,9 +137,11 @@ namespace WorldsProject.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            StarSystem starSystem = db.StarSystems.Find(id);
-            db.StarSystems.Remove(starSystem);
-            db.SaveChanges();
+            //StarSystem starSystem = db.StarSystems.Find(id);
+            //db.StarSystems.Remove(starSystem);
+            starsystemRepository.DeleteStarSystem(id);
+            //db.SaveChanges();
+            starsystemRepository.Save();
             return RedirectToAction("Index");
         }
 
@@ -128,7 +149,7 @@ namespace WorldsProject.Controllers
         {
             if (disposing)
             {
-                db.Dispose();
+                starsystemRepository.Dispose();
             }
             base.Dispose(disposing);
         }

@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using WorldsProject.Models;
 
-namespace StarboundWorlds.Models
+namespace WorldsProject.Models
 {
     public class Moon : World
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
 
-namespace StarboundWorlds.Models
+namespace WorldsProject.Models
 {
     public class StarSystem
     {
