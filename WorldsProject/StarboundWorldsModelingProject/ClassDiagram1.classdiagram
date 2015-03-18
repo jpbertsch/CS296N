@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="96a851d6-6b10-45d8-9a5d-5c12f4058f0d" name="ClassDiagram1" linkedPackageId="5e3731b5-0476-4287-861d-6b099f548f64" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="5f4a62ea-a531-4b76-aa32-fb70e0830e8a">
+      <profileInstance Id="3b2fde8a-63c1-42c6-9df6-e00155f7d0c8" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b5035853-acaa-41dc-b4e6-8de316078727">
+      <profileInstance Id="48635e5c-3fec-41ef-9a8a-84f70435b650" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="80d0a3cd-8ab1-4aa9-bc99-8518b5f8eb1b" name="StarSystem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d4ad69a4-365e-443e-a078-76a70f2c27f5" />
+        <targetEnds>
+          <association Id="3cb406dd-abaa-4218-a988-eb0d088458c1" isDerived="false" sourceEndRoleName="StarSystem" targetEndRoleName="World" isLeaf="false" isAbstract="false">
+            <classMoniker Id="ee12cb27-29b9-42c4-ba41-85589bfe04ba" LastKnownName="World" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="078466b4-06a1-461b-86c5-f9f117cadfa6" name="StarSystem" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="11f6606f-633e-4b42-9c23-661ec00fda04" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="709233ed-7b68-436d-b8bb-f1caf4cf8cd8" name="World" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="a008806a-039c-4026-883e-f6813248193d" name="Lower">
+                      <elementDefinition Id="c0a7ea11-dfa6-451c-a96c-70db941c6c0d" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="9d13c84e-726f-4694-b8cb-20baed7515a5" name="Upper" value=".">
+                      <elementDefinition Id="50b75790-20a7-4459-9bfc-95326af3c59d" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="9cca0558-d3f9-4fe6-abd6-2d0c5cc0b64e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="70254443-f4aa-434b-aacd-4197389a67ea" />
+          </association>
+          <association Id="4746cf87-4ba2-47ea-a2ec-0530d6ac1fc7" isDerived="false" sourceEndRoleName="StarSystem" targetEndRoleName="Planet" isLeaf="false" isAbstract="false">
+            <classMoniker Id="a3f0f5dd-bf33-42aa-8d1e-94ae5ba5c7a2" LastKnownName="Planet" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5a20be0a-561f-4f82-b3ed-e34273eb4789" name="StarSystem" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="639fd003-a698-422f-a51e-a0959f00bd10" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ed3c14ff-527e-4298-b4f9-3ba75b458d2a" name="Planet" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="789010be-c67a-482a-94e1-bdf8cf9a97fd" name="Lower" value="0">
+                      <elementDefinition Id="2b215985-e691-44b2-a65e-97e73d7289a5" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="a829678f-3ee7-47dd-9b40-c5ef214f5fa0" name="Upper" value=".*">
+                      <elementDefinition Id="8fef738b-fcab-40e7-bbc3-f0f5a081120a" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="58632487-eb8f-4114-a35f-d814fb9ad86c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="885fac75-8973-4bd3-8c02-e2edfef609c7" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="42ddf9fa-7034-4b7c-9f29-4fde371a2f46" name="StarID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f16ef54f-9f28-4eb1-94c6-ec0e02b92223" />
+          </property>
+          <property Id="1273fb40-785f-4db4-8f96-ace12a0f650b" name="StarType" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="01da60de-9e09-459f-b4d9-d585c79e6e0c" />
+          </property>
+          <property Id="4268c9b5-2432-4a40-8d90-9b5e83877413" name="StarPlanets" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4c236bd2-fbf9-4921-8867-8d1bd58bec7b" />
+          </property>
+          <property Id="1e3f287f-895a-4370-9e31-4619031a791f" name="Xcoordinate" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bb6b753b-3ecc-4253-8177-ede7ae5e4b86" />
+          </property>
+          <property Id="6ba19521-6a4b-4b9f-8770-33a9e42efad7" name="Ycoordinate" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a314bdaa-dbf9-492f-9084-1f3b5bac404e" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ee12cb27-29b9-42c4-ba41-85589bfe04ba" name="World" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b8352ec1-75dd-44af-bfd6-22147ff22068" />
+        <generalsInternal>
+          <generalization Id="8f0e596c-419b-4428-bc75-3ecaae428592" isSubstitutable="false">
+            <classMoniker Id="a3f0f5dd-bf33-42aa-8d1e-94ae5ba5c7a2" LastKnownName="Planet" />
+            <elementDefinition Id="47af0fa9-73d7-49f4-acac-36d0b98caad1" />
+          </generalization>
+          <generalization Id="aad75c15-4007-48af-8158-7476859368b7" isSubstitutable="false">
+            <classMoniker Id="34009813-0e0f-4af5-b8e4-c76d23e69111" LastKnownName="Moon" />
+            <elementDefinition Id="cca3ff56-cc1f-4138-8c49-d484e966cdbc" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="0e81e9d1-0701-47bd-8a02-e24c17232b3e" name="WorldID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="703a2b6f-ffc4-4ba7-b9f6-a33975ec1b44" />
+          </property>
+          <property Id="335b6fbc-248c-4a91-a85e-f20b9dc3e40c" name="Star" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="97969bf8-3492-413b-9519-8ea0d56abd25" />
+          </property>
+          <property Id="b93b668a-b92b-4306-9fd5-ffbd987c093e" name="WorldType" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="310b1ea4-0be2-46f1-91bf-4ca03157d17a" />
+          </property>
+          <property Id="f1c17bcb-7139-4c10-9491-b9da626e5472" name="WorldFeatures" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a04e4ce9-dc9d-4893-8295-c1b95955274b" />
+          </property>
+          <property Id="120aaf77-2005-4187-af01-718f56d06aea" name="WorldSize" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="253a13bf-902a-4436-824e-aa31af6c5bd6" />
+          </property>
+          <property Id="afb13a82-0568-47fa-b256-7450e862fc9d" name="WorldGravity" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="267c493f-5dc5-4468-8147-5a013eec990d" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a3f0f5dd-bf33-42aa-8d1e-94ae5ba5c7a2" name="Planet" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b5ab60ac-8a20-4c25-8757-2cc33b94d094" />
+        <targetEnds>
+          <association Id="f2961ada-5ff0-4b1f-9b7c-e06c5b05da7f" isDerived="false" sourceEndRoleName="Planet" targetEndRoleName="Moon" isLeaf="false" isAbstract="false">
+            <classMoniker Id="34009813-0e0f-4af5-b8e4-c76d23e69111" LastKnownName="Moon" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="29da96ba-f8d0-44d4-9cd0-345403c1dc37" name="Planet" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="61537881-bc2c-481a-853d-f5e2ca18c237" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2081cbee-cf45-499d-9c50-a9f7b4ee8dfa" name="Moon" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="28e249d2-b182-458f-9020-c96c3fc3eb57" name="Lower" value="0">
+                      <elementDefinition Id="8da43ac3-7ef6-4226-82d3-50b2b7cb241a" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="ede05f42-9b4b-4f85-a4b9-eea48935c270" name="Upper" value=".*">
+                      <elementDefinition Id="893acb32-b1ba-427b-8c0c-7f374d7abeb4" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="9ad55926-7b81-43b9-b66c-eddb3d984f50" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ab6dc981-7283-4f64-b4c9-04abcb21802c" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="d3ef450f-9a68-4886-a21f-53d396594d9f" name="Moons" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="da31f763-4f0e-45bb-9ca0-7d1040e95c23" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="34009813-0e0f-4af5-b8e4-c76d23e69111" name="Moon" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="eecca5a5-a010-4862-8f18-bfe6d622d504" />
+        <ownedAttributesInternal>
+          <property Id="a303a20d-5d82-4546-97bb-e1d71221dfc6" name="Planet" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e4ebc7cd-0a2a-4359-b039-09f12715edc8" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="5e3731b5-0476-4287-861d-6b099f548f64" name="StarboundWorldsModelingProject">
+    <elementDefinition Id="a4d3ef35-eb25-4dc5-82a4-a5a5ab54d8cd" />
+  </package>
+</logicalClassDesignerModel>

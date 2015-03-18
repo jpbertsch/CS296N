@@ -1,0 +1,42 @@
+﻿@model StarboundWorlds.Models.StarSystem
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>StarSystem</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Xcoordinate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Xcoordinate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ycoordinate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ycoordinate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StarName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StarName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.StarSystemID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
