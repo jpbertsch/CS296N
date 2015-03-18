@@ -5,6 +5,7 @@ using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using System.Web;
+using WorldsProject.Models;
 
 namespace WorldsProject.DAL
 {
@@ -16,6 +17,9 @@ namespace WorldsProject.DAL
         public DbSet<StarSystem> StarSystems { get; set; }
         public DbSet<Planet> Planets { get; set; }
         public DbSet<Moon> Moons { get; set; }
+
+        public DbSet<StarType> StarTypes { get; set; }
+        public DbSet<WorldType> WorldTypes { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

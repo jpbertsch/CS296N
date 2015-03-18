@@ -6,6 +6,7 @@ namespace WorldsProject.Migrations
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
+    using WorldsProject.Models;
 
     internal sealed class Configuration : DbMigrationsConfiguration<WorldsProject.DAL.PrimaryContext>
     {
@@ -17,6 +18,52 @@ namespace WorldsProject.Migrations
 
         protected override void Seed(WorldsProject.DAL.PrimaryContext context)
         {
+            /*
+            var startypes = new List<StarType>
+            {
+                new StarType{StarTypeID=1, StarTypeName="Gentle", Description="Gentle-type stars are generally home to safe planets with relativel harmless creatures and few hazards."},
+                new StarType{StarTypeID=2, StarTypeName="Eccentric", Description="Eccentric-type stars contains wildly different worlds but do not pose significant threats."},
+                new StarType{StarTypeID=3, StarTypeName="Radioactive", Description="Radioactive-type stars usually contain planets that require a radiation suit to visit safely."},
+                new StarType{StarTypeID=4, StarTypeName="Frozen", Description="Frozen-type stars contain planets with extremely low temperatures which require special cold-weather gear."},
+                new StarType{StarTypeID=5, StarTypeName="Fiery", Description="Fiery-type stars contain volatile and burning hot worlds that require thermal gear to safely visit."}
+            };
+
+            startypes.ForEach(s => context.StarTypes.AddOrUpdate(s));
+            context.SaveChanges();
+            */
+
+            /*
+                //TODO: Add worldtypes seed portion
+            
+            var worldtypes = new List<WorldType>
+            {
+                new WorldType{WorldTypeID=01, WorldTypeName="Barren", Description="Barren-type worlds are largely unremarkable and featureless, making them idea locations for future construction."},
+                new WorldType{WorldTypeID=02, WorldTypeName="Moon", Description="Moon-type worlds lack a breathable atmosphere but are rich in fuel deposits for those willing to mine deep enough."},
+
+                new WorldType{WorldTypeID=11, WorldTypeName="Lush", Description="Lush-type worlds are typically safe grassy planets with relatively low powered creatures and many helpful resources."},
+                new WorldType{WorldTypeID=12, WorldTypeName="Forest", Description="Description goes here."},
+                new WorldType{WorldTypeID=13, WorldTypeName="Desert", Description="Description goes here."},
+
+                new WorldType{WorldTypeID=21, WorldTypeName="Arid", Description="Description goes here."},
+                new WorldType{WorldTypeID=22, WorldTypeName="Ocean", Description="Description goes here."},
+                new WorldType{WorldTypeID=23, WorldTypeName="Snow", Description="Description goes here."},
+
+                new WorldType{WorldTypeID=31, WorldTypeName="Jungle", Description="Description goes here."},
+                new WorldType{WorldTypeID=32, WorldTypeName="Poison", Description="Description goes here."},
+                new WorldType{WorldTypeID=33, WorldTypeName="Alien", Description="Description goes here."},
+
+                new WorldType{WorldTypeID=41, WorldTypeName="Ice", Description="Description goes here."},
+                new WorldType{WorldTypeID=42, WorldTypeName="Frigid", Description="Description goes here."},
+
+                new WorldType{WorldTypeID=51, WorldTypeName="Volcanic", Description="Description goes here."},
+                new WorldType{WorldTypeID=52, WorldTypeName="Magma", Description="Description goes here."},
+                new WorldType{WorldTypeID=53, WorldTypeName="Dead", Description="Description goes here."},
+
+            };
+            worldtypes.ForEach(s => context.StarTypes.AddOrUpdate(s));
+            context.SaveChanges();
+            */
+
             var starsystems = new List<StarSystem>
             {
                 new StarSystem{StarName="Gamma Embroxillia Majoris", Xcoordinate=-534828658, Ycoordinate=-194670420,StarType="Gentle"},

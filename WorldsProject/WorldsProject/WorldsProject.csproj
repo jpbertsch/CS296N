@@ -132,11 +132,14 @@
     <Compile Include="Migrations\201503112041169_InitialCreate.Designer.cs">
       <DependentUpon>201503112041169_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201503151836185_AddedStar\WorldtypesandAnnotations.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Moon.cs" />
     <Compile Include="Models\Planet.cs" />
     <Compile Include="Models\StarSystem.cs" />
+    <Compile Include="Models\StarType.cs" />
     <Compile Include="Models\World.cs" />
+    <Compile Include="Models\WorldType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\MoonVM.cs" />
     <Compile Include="ViewModels\PlanetVM.cs" />
