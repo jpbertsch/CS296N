@@ -21,10 +21,10 @@ c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\bin\System.Web.WebPages.Razor.xml
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\bin\Antlr3.Runtime.pdb
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\bin\Newtonsoft.Json.xml
-c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\obj\Debug\WorldsProject.csprojResolveAssemblyReference.cache
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\obj\Debug\WorldsProject.dll
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\obj\Debug\WorldsProject.pdb
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\bin\EntityFramework.dll
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\bin\EntityFramework.SqlServer.dll
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\bin\EntityFramework.xml
 c:\users\jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\WorldsProject\WorldsProject\obj\Debug\WorldsProject.csprojResolveAssemblyReference.cache

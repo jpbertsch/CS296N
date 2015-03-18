@@ -8,10 +8,8 @@ namespace StarboundWorlds.Models
     public class Planet : World
     {
         public int PlanetID { get; set; }
+
         public int StarSystemID { get; set; }
-
-        public int Orbit { get; set; }
-
 
         //public string PlanetName { get; set; } //SB planets get name from starsystem
 

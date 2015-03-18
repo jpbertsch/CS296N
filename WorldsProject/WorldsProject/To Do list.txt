@@ -1,0 +1,8 @@
+Look into requirements for lab 4 and how to implement them
+	Use to implement list of planets in starsystem detail view
+	and list of moons in planet detail view
+	
+Find out how to implement work for Lab 5
+	Use to make add new system ability with
+	multiple planets and moons and add
+	system, moon, and planets to respective database

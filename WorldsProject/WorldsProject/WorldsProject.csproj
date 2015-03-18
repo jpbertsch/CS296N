@@ -120,7 +120,9 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MoonController.cs" />
     <Compile Include="Controllers\PlanetController.cs" />
+    <Compile Include="Controllers\PlanetVMController.cs" />
     <Compile Include="Controllers\StarSystemController.cs" />
+    <Compile Include="Controllers\StarSystemVMController.cs" />
     <Compile Include="DAL\PrimaryContext.cs" />
     <Compile Include="DAL\PrimaryInitializer.cs" />
     <Compile Include="Global.asax.cs">
@@ -131,6 +133,9 @@
     <Compile Include="Models\StarSystem.cs" />
     <Compile Include="Models\World.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\MoonVM.cs" />
+    <Compile Include="ViewModels\PlanetVM.cs" />
+    <Compile Include="ViewModels\StarSystemVM.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -153,6 +158,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="To Do list.txt" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -183,6 +189,8 @@
     <Content Include="Views\Moon\Details.cshtml" />
     <Content Include="Views\Moon\Edit.cshtml" />
     <Content Include="Views\Moon\Index.cshtml" />
+    <Content Include="Views\StarSystemVM\Index.cshtml" />
+    <Content Include="Views\PlanetVM\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

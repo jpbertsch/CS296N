@@ -1,0 +1,55 @@
+﻿@model IEnumerable<WorldsProject.ViewModels.StarSystemVM>
+
+@{
+    ViewBag.Title = "StarSystemVM View";
+}
+
+<h2>StarSystemVM View</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.StarName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Xcoordinate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ycoordinate)
+        </th>
+        <th>
+            Planet List (WiP)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StarName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Xcoordinate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ycoordinate)
+            </td>
+            <td>
+                @ViewBag.planetList
+            </td>
+            @*
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.StarSystemID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.StarSystemID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.StarSystemID })
+            </td>
+            *@
+        </tr>
+    }
+
+</table>

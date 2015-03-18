@@ -17,6 +17,7 @@ namespace StarboundWorlds.Models
 
         //public StarSystem Star { get; set; } // Foreign Key, need to look into how to implement
 
+        public int Orbit { get; set; }
 
         //Need some way of keeping a list of features of world
 
