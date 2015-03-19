@@ -72,6 +72,7 @@
     </dl>
 </div>
 <p>
+    @Html.ActionLink("Back to List", "Index") |
     @Html.ActionLink("Edit", "Edit", new { id = Model.PlanetID }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Delete", "Delete", new { id = Model.PlanetID })
 </p>

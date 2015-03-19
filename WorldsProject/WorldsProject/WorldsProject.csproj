@@ -139,6 +139,10 @@
     <Compile Include="Migrations\201503170008223_Migration03162015.Designer.cs">
       <DependentUpon>201503170008223_Migration03162015.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201503190237582_03182015update.cs" />
+    <Compile Include="Migrations\201503190237582_03182015update.Designer.cs">
+      <DependentUpon>201503190237582_03182015update.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\dummyClass.cs" />
     <Compile Include="Models\Moon.cs" />
@@ -225,6 +229,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201503170008223_Migration03162015.resx">
       <DependentUpon>201503170008223_Migration03162015.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201503190237582_03182015update.resx">
+      <DependentUpon>201503190237582_03182015update.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

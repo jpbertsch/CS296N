@@ -90,3 +90,5 @@ C:\Users\nwtech\Desktop\WorldsProject\WorldsProject\obj\Debug\WorldsProject.pdb
 C:\Users\Jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\obj\Debug\WorldsProject.Migrations.InitialCreate.resources
 C:\Users\Jacob\documents\visual studio 2013\Projects\WorldsProject\WorldsProject\obj\Debug\WorldsProject.csproj.GenerateResource.Cache
 C:\Users\Jacob\Documents\Visual Studio 2013\Projects\WorldsProject\WorldsProject\obj\Debug\WorldsProject.Migrations.Migration03162015.resources
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\WorldsProject\WorldsProject\obj\Debug\WorldsProject.csprojResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\WorldsProject\WorldsProject\obj\Debug\WorldsProject.Migrations._03182015update.resources

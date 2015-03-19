@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="PrimaryContext-Web.config Connection String" description="PrimaryContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;Initial Catalog=WorldsProject2;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\WorldsProject2.mdf" tags="SqlConnectionString">
+  <parameter name="PrimaryContext-Web.config Connection String" description="PrimaryContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;Initial Catalog=WorldsProject2;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\WorldsProject3.mdf" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\Jacob\\Documents\\Visual\ Studio\ 2013\\Projects\\WorldsProject\\WorldsProject\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PrimaryContext']/@connectionString" />
   </parameter>
   <parameter name="PrimaryContext_DatabasePublish-Web.config Connection String" description="PrimaryContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="PrimaryContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">

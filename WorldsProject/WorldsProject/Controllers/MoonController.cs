@@ -40,7 +40,7 @@ namespace WorldsProject.Controllers
         // GET: Moon/Create
         public ActionResult Create()
         {
-            ViewBag.PlanetID = new SelectList(db.Planets, "PlanetID", "PlanetID");
+            ViewBag.PlanetID = new SelectList(db.Planets, "PlanetID", "PlanetName");
             return View();
         }
 

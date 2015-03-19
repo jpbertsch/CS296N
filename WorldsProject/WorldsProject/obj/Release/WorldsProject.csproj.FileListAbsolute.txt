@@ -31,3 +31,4 @@ C:\Users\Jacob\Documents\Visual Studio 2013\Projects\WorldsProject\WorldsProject
 C:\Users\Jacob\Documents\Visual Studio 2013\Projects\WorldsProject\WorldsProject\obj\Release\WorldsProject.dll
 C:\Users\Jacob\Documents\Visual Studio 2013\Projects\WorldsProject\WorldsProject\obj\Release\WorldsProject.pdb
 C:\Users\Jacob\Documents\Visual Studio 2013\Projects\WorldsProject\WorldsProject\obj\Release\WorldsProject.Migrations.Migration03162015.resources
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\WorldsProject\WorldsProject\obj\Release\WorldsProject.Migrations._03182015update.resources
